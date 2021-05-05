@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
+  background-color: black;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px;
+  padding: 10px;
+  box-shadow: 0 0 20px rgb(16, 233, 99);
+  background-color: black;
+}
+
+img {
+  max-width: 100px;
+  max-height: 100px;
+  display: block;
+}
+
+button {
+  border: 1px;
+  background: none;
+}
+
+#Usuario {
+  margin-top: 10px;
+}
+
+#resultado {
+  color: rgb(245, 245, 245);
+  font-size: 2rem;
+}
+
+#contador {
+  color: rgb(16, 233, 99);
+}

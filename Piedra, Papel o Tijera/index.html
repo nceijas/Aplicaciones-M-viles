@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Piedra, papel o tijera</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <section>
+        <button data-elec="Papel">
+          <img src="Img/Papel.png" alt="Papel" />
+        </button>
+        <button data-elec="Piedra">
+          <img src="Img/Piedra.png" alt="Piedra" />
+        </button>
+        <button data-elec="Tijera">
+          <img src="Img/Tijera.png" alt="Tijera" />
+        </button>
+      </section>
+
+      <section id="Usuario">
+        <img id="eleccionUsuario" src="Img/Papel.png" alt="Piedra" />
+      </section>
+
+      <p id="resultado">¿Estás listo para jugar?</p>
+
+      <section id="Computadora">
+        <img id="eleccionPC" src="Img/Papel.png" alt="Papel" />
+      </section>
+
+      <section id="contador">
+        <ul>
+          <li><h3 id="VicUsuario">Victorias Usuario = 0</h3></li>
+          <li><h3 id="VicPC">Victorias PC = 0</h3></li>
+        </ul>
+      </section>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
